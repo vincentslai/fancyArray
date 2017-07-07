@@ -1,0 +1,24 @@
+<!DOCKTYPE html>
+<html>
+<head>
+	<title>Coding Dojo | Fancy Array</title>
+</head>
+<body>
+	<h1>Fancy Array </h1>
+	<p>Normally, if you print an array such as ["James", "Jill", "Jane", "Jack"], you will see the following:</p>
+	<p>[ "James", "Jill", "Jane", "Jack" ]</p>
+	<p>Let's make it look fancy! Write a function that will make it print like:</p>
+	<p>0 -> James</p>
+	<p>1 -> Jill</p>
+	<p>2 -> Jane</p>
+	<p>3 -> Jack</p>
+	
+	<script>
+		var arr = ["James", "Jill", "Jane", "Jack"];
+		for(var x = 0; x < arr.length; x++)
+		{
+			console.log(x + " -> " + arr[x]);
+		}
+	</script>
+</body>
+</html>
